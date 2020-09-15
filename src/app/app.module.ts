@@ -51,10 +51,13 @@ import {MatTreeModule} from '@angular/material/tree';
 import { environment } from "src/environments/environment";
 import { AngularFireModule } from "@angular/fire";
 import { AngularFirestoreModule } from "@angular/fire/firestore";
-
+import { HomeComponent } from './home/home.component';
+import { ParticlesDirective } from './home/particles.directive'
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    ParticlesDirective
   ],
   imports: [
     BrowserModule,
@@ -100,6 +103,7 @@ import { AngularFirestoreModule } from "@angular/fire/firestore";
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
+    
 
   ],
   providers: [],

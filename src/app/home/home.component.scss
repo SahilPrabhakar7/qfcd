@@ -1,0 +1,81 @@
+.particles-wrapper {
+    width: 100%;
+    background:radial-gradient(circle,rgba(8, 8, 8, 0.911) 22%,rgb(3, 10, 109) 37%,rgb(5, 81, 168) 54%,rgb(25, 4, 211) 100%);
+    position: absolute;
+    background-image: url("../../assets/logo.png");
+    bottom: 0;
+    top: 0;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #231f20;
+    // background-origin: padding-box;
+    
+    // #49f1a4 green
+    // #40cfc9 blue 
+    // #231f20 black
+}
+
+h1, h2 {
+text-align: center;
+margin: 5px;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+}
+
+.control-item {
+  padding: 10px;
+  margin: 5px 10px;
+  border: 1px solid #c1c1c1;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  width: 125px;
+}
+
+.control-item:hover {
+  background: #e7e7e7;
+}
+
+.title-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 160px;
+  min-width: 300px;
+}
+
+// header {
+//   height:180vh;
+//   min-height:400px;
+//   background-size:cover;
+//   background-image:url('https://images.unsplash.com/photo-1470434151738-dc5f4474c239?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb');
+// }
+
+.hidden-spacer {
+  height: 56px
+}
+.mat-progress-spinner circle, .mat-spinner circle {
+  stroke: #22ffe6;
+}
+
+.basic-container {
+  display: inline-block;
+  position: relative;
+  z-index: 1000;
+  // background-color: #22ffe6;
+}
+
+img {
+  max-width: 100%;
+  position: absolute;
+  max-height: 100%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: circle(45% at 50% 49%);
+}
